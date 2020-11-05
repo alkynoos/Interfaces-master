@@ -59,11 +59,11 @@ namespace Interfaces
 
 
             Console.WriteLine("Boat boat");
-            MotorBike boat = new MotorBike();
+            Boat boat = new Boat();
             boat.SteerRight();
             boat.SteerLeft();
             boat.Stop();
-            //boat.Reverse(); // CHECK
+            boat.Reverse();
             Console.WriteLine(boat.IsOn);
 
 
